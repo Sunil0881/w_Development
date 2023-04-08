@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(38,36,36,0.5),rgba(38, 36, 36, 0.5)), url(image/building4.jpg) ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo img{
+  height: 50px;
+  width: 100px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 15px;
+}
+.main{
+  max-width: 1500px;
+  margin:auto;
+}
+.title{
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+.title h1{
+  color: #ca8a09;
+  font-size: 70px;
+  text-align: center;
+}
+ul li.active a {
+  background-color: #f7f7f6;
+  color: rgb(8, 8, 8);
+
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 23px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #ffff;
+  padding: 7px 20px;
+  transition: 0.6s ease;
+  
+}
+ul li a:hover{
+  background-color: #f7f4f4;
+  color: rgb(15, 15, 15);
+}
+.button{
+  top: 70%;
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+.btn{
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 30px;
+  border: 1px solid #ffff;
+  transition: 0.6s ease;
+}
+.btn:hover{
+  background-color: #f7f4f4;
+  color: rgb(15, 15, 15);
+}
+.section h2{
+  background-color: #ffff;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.section P{
+  color: blue;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+@media only screen and (max-width:800px) {
+  
+  
+ 
+}
+@media only screen and (max-width:500px) {
+  
+  .header {
+    width: 10%;
+  }
+}
+
+
+
+

@@ -1,0 +1,42 @@
+import turtle
+
+# Set up the turtle screen
+screen = turtle.Screen()
+screen.title("Smiley Face")
+
+# Create a turtle object and set its speed
+t = turtle.Turtle()
+t.speed(0)
+
+# Draw the circle for the face
+t.penup()
+t.goto(0, -100)
+t.pendown()
+t.circle(100)
+
+# Draw the eyes
+t.penup()
+t.goto(-50, 50)
+t.pendown()
+t.begin_fill()
+t.circle(25)
+t.end_fill()
+t.penup()
+t.goto(50, 50)
+t.pendown()
+t.begin_fill()
+t.circle(25)
+t.end_fill()
+
+# Draw the mouth
+t.penup()
+t.goto(-60, -25)
+t.pendown()
+t.right(45)
+t.forward(85)
+t.right(90)
+t.circle(-85, 180)
+
+# Hide the turtle object and exit on click
+t.hideturtle()
+turtle.exitonclick()
